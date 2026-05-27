@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="detail.html" class="active">Details</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <span id="item-name">Details</span>
+        </div>
+
+        <section class="detail-content">
+            <div class="detail-image"></div>
+            <div class="detail-info">
+                <h1 id="detail-title">Item Details</h1>
+                <p id="detail-description">
+                    This is a detailed view of the selected item. Here you can find comprehensive information about the product or service.
+                </p>
+                <div class="detail-specs">
+                    <div class="spec">
+                        <strong>Price:</strong> <span id="detail-price">$99.99</span>
+                    </div>
+                    <div class="spec">
+                        <strong>Availability:</strong> <span id="detail-availability">In Stock</span>
+                    </div>
+                    <div class="spec">
+                        <strong>Rating:</strong> <span id="detail-rating">★★★★★</span>
+                    </div>
+                </div>
+                <button class="btn-primary" onclick="alert('Added to cart!')">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyWebsite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
