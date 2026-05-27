@@ -27,6 +27,15 @@ const itemsData = {
 document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const itemId = urlParams.get('id') || '1';
+    const message = urlParams.get('message'); // Get message parameter
+    
+    // Display message if provided
+    if (message) {
+        const messageBox = document.getElementById('message-box');
+        const messageText = document.getElementById('message-text');
+        messageBox.style.display = 'block';
+        messageText.textContent = decodeURIComponent(message);
+    }
     
     const item = itemsData[itemId];
     if (item) {
