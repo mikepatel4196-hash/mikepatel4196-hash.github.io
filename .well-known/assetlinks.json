@@ -1,12 +1,1 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.rocketclose.testapp",
-      "sha256_cert_fingerprints": [
-       "A4:70:01:FF:C7:DF:1D:68:37:47:EA:E8:B1:87:7E:47:4C:39:CB:B5:DA:8F:75:97:DC:BF:59:72:CC:CD:45:1C"
-      ]
-    }
-  }
-]
+[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"com.rocketclose.testapp","sha256_cert_fingerprints":["A4:70:01:FF:C7:DF:1D:68:37:47:EA:E8:B1:87:7E:47:4C:39:CB:B5:DA:8F:75:97:DC:BF:59:72:CC:CD:45:1C"]}}]
