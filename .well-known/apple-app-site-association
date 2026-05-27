@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "PWHZJ9Q8FQ.com.rocketclose.test",
-        "paths": ["*"]
+        "paths": ["/detail.html"]
       }
     ]
   }
