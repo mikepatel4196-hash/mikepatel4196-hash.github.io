@@ -1,3 +1,8 @@
 [build]
   publish = "."
   command = ""
+
+[[redirects]]
+  from = "/details"
+  to = "/detail.html"
+  status = 200
